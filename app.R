@@ -17,7 +17,7 @@ library(tidyverse)
 #    arrange(DATETIME, .by_group = T) %>%
 #    mutate(obs_dist = geodist(cbind(LON,LAT), sequential = T, pad = T, measure = "geodesic"))
 
-ship_data <- read_csv("data/ship data distance.csv")
+ship_data <- read_csv("data/ship_data_distance.zip")
 
 # setting grid template layout
 myGridTemplate <- grid_template(
